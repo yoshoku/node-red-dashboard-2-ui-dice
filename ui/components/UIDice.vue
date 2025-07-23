@@ -51,7 +51,20 @@ export default {
     computed: {
         ...mapState('data', ['messages']),
         value: function () {
-            return this.messages[this.id]?.payload || Math.floor(Math.random() * 6 + 1)
+            switch (this.props.valueType) {
+            case 'msg': {
+                const msg = this.messages[this.id]
+                if (msg && Object.prototype.hasOwnProperty.call(msg, this.props.value)) {
+                    return msg[this.props.value]
+                }
+                break
+            }
+            case 'str':
+                return parseInt(this.props.value)
+            case 'num':
+                return this.props.value
+            }
+            return 1
         }
     },
     created () {
