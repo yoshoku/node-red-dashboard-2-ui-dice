@@ -1,32 +1,18 @@
-# Example Node for Node-RED Dashboard
+# node-red-dashboard-2-ui-dice
 
+A dice widget for the Node-RED Dashboard 2.0.
 
-This repository contains an example, third-party, node for the Node-RED Dashboard. 
+<img src="https://github.com/user-attachments/assets/c20cf517-7c08-422a-bfa0-a5a2b6c459d8" alt="example of node-red-dashboard-2-ui-dice" />
 
-To get started, clone this repository:
+## Installation
 
-```bash
-# if using HTTPS:
-git clone https://github.com/FlowFuse/node-red-dashboard-2-ui-example.git
+You can install this node from the "Manage Palette" menu in the Node-RED interface.
+Alternatively, run the following command in your Node-RED user directory:
 
-# if using SSH:
-git clone git@github.com:FlowFuse/node-red-dashboard-2-ui-example.git
+```
+npm install @yoshoku/node-red-dashboard-2-ui-dice
 ```
 
-Then, you can install it's dependencies with:
+## License
 
-```bash
-npm install
-```
-
-## Development with Dashboard 2.0
-
-You can read our [contribution guide](https://dashboard.flowfuse.com/contributing/widgets/third-party.html) for details on developing your own Dashboard 2.0 integrations & widgets.
-
-This project is intended to be used as a starting point for creating your own custom nodes that can integrate directly with [Node-RED Dashboard 2.0](https://github.com/FlowFuse/flowforge-nr-dashboard).
-
-Note that if you're looking to contribute directly to Node-RED Dashboard 2.0, then use the examples already in the core repository to build on, as they are structured differently to external/third-party widgets.
-
-## Architecture
-
-All third-party (non-core) nodes for Node-RED Dashboard 2.0 are structured such that they extend the core `ui-template` node, and provide access such that you can define custom HTML, CSS, and JavaScript for your widget.
+node-red-dashboard-2-ui-dice is available as open source under the terms of the [Apache-2.0 License](https://github.com/yoshoku/node-red-dashboard-2-ui-dice/blob/main/LICENSE).
