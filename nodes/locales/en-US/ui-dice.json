@@ -1,7 +1,8 @@
 {
-    "dice" : {
+    "ui-dice" : {
         "label": {
-            "size": "Size"
+            "group": "Group",
+            "value": "Value"
         }
     }
 }
