@@ -1,37 +1,37 @@
 <template>
     <div className="dice-wrapper">
         <div v-if="value % 6 === 1" class="face face-1">
-            <span class="dot"></span>
+            <span class="dot" />
         </div>
         <div v-else-if="value % 6 === 2" class="face face-2">
-            <span class="dot"></span>
-            <span class="dot"></span>
+            <span class="dot" />
+            <span class="dot" />
         </div>
         <div v-else-if="value % 6 === 3" class="face face-3">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+            <span class="dot" />
+            <span class="dot" />
+            <span class="dot" />
         </div>
         <div v-else-if="value % 6 === 4" class="face face-4">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+            <span class="dot" />
+            <span class="dot" />
+            <span class="dot" />
+            <span class="dot" />
         </div>
         <div v-else-if="value % 6 === 5" class="face face-5">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+            <span class="dot" />
+            <span class="dot" />
+            <span class="dot" />
+            <span class="dot" />
+            <span class="dot" />
         </div>
         <div v-else class="face face-6">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+            <span class="dot" />
+            <span class="dot" />
+            <span class="dot" />
+            <span class="dot" />
+            <span class="dot" />
+            <span class="dot" />
         </div>
     </div>
 </template>
@@ -51,7 +51,7 @@ export default {
     computed: {
         ...mapState('data', ['messages']),
         value: function () {
-            return this.messages[this.id]?.payload || Math.floor(Math.random() * 6 + 1);
+            return this.messages[this.id]?.payload || Math.floor(Math.random() * 6 + 1)
         }
     },
     created () {
