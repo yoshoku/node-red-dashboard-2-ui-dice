@@ -1,5 +1,5 @@
 {
-    "name": "@yoshoku/node-red-dashboard-2-dice",
+    "name": "@yoshoku/node-red-dashboard-2-ui-dice",
     "version": "0.1.0",
     "description": "A dice widget for Node-RED Dashboard 2.0",
     "keywords": [
@@ -8,7 +8,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/yoshoku/node-red-dashboard-2-dice.git"
+        "url": "https://github.com/yoshoku/node-red-dashboard-2-ui-dice.git"
     },
     "license": "Apache-2.0",
     "author": {
