@@ -1,5 +1,5 @@
 module.exports = function (RED) {
-    function DiceNode (config) {
+    function UIDiceNode (config) {
         RED.nodes.createNode(this, config)
 
         const node = this
@@ -50,5 +50,5 @@ module.exports = function (RED) {
         }
     }
 
-    RED.nodes.registerType('dice', DiceNode)
+    RED.nodes.registerType('ui-dice', UIDiceNode)
 }

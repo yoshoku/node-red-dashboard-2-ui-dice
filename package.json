@@ -1,7 +1,7 @@
 {
     "name": "@yoshoku/node-red-dashboard-2-ui-dice",
     "version": "0.1.0",
-    "description": "A dice widget for Node-RED Dashboard 2.0",
+    "description": "A dice widget for the Node-RED Dashboard 2.0",
     "keywords": [
         "node-red",
         "node-red-dashboard-2"
@@ -16,8 +16,8 @@
         "url": "https://github.com/yoshoku"
     },
     "exports": {
-        "import": "./resources/dice.esm.js",
-        "require": "./resources/dice.umd.js"
+        "import": "./resources/ui-dice.esm.js",
+        "require": "./resources/ui-dice.umd.js"
     },
     "files": [
         "nodes/*",
@@ -57,14 +57,14 @@
     "node-red": {
         "version": ">=3.0.0",
         "nodes": {
-            "dice": "nodes/dice.js"
+            "ui-dice": "nodes/ui-dice.js"
         }
     },
     "node-red-dashboard-2": {
         "version": "1.0.0",
         "widgets": {
-            "dice": {
-                "output": "dice.umd.js",
+            "ui-dice": {
+                "output": "ui-dice.umd.js",
                 "component": "UIDice"
             }
         }

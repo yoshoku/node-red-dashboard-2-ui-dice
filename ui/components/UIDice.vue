@@ -1,5 +1,5 @@
 <template>
-    <div className="dice-wrapper">
+    <div className="ui-dice-wrapper">
         <div v-if="value % 6 === 1" class="face face-1">
             <span class="dot" />
         </div>
@@ -106,7 +106,7 @@ export default {
 </script>
 
 <style scoped>
-.dice-wrapper {
+.ui-dice-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

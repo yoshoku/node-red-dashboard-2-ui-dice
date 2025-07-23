@@ -1,5 +1,5 @@
 <script type="text/javascript">
-    RED.nodes.registerType('dice', {
+    RED.nodes.registerType('ui-dice', {
         category: RED._('@flowfuse/node-red-dashboard/ui-base:ui-base.label.category'),
         color: RED._('@flowfuse/node-red-dashboard/ui-base:ui-base.colors.light'),
         defaults: {
@@ -25,7 +25,7 @@
         outputs: 0,
         icon: 'font-awesome/fa-cube',
         label: function() {
-            return this.name || 'dice';
+            return this.name || 'ui-dice';
         },
         oneditprepare: function () {
             $('#node-input-value').typedInput({
@@ -37,7 +37,7 @@
     });
 </script>
 
-<script type="text/html" data-template-name="dice">
+<script type="text/html" data-template-name="ui-dice">
     <div class="form-row">
         <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
         <input type="text" id="node-input-name" placeholder="Name">

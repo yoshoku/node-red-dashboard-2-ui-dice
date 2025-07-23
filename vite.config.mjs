@@ -7,7 +7,7 @@ import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 // Set to this to the name of this collection of components
 // This must match node-red-dashboard-2.widgets[libraryName] in package.json
-const LIBRARY_NAME = 'dice'
+const LIBRARY_NAME = 'ui-dice'
 
 // https://vitejs.dev/config/
 export default defineConfig({
