@@ -65,7 +65,7 @@
         "widgets": {
             "dice": {
                 "output": "dice.umd.js",
-                "component": "Dice"
+                "component": "UIDice"
             }
         }
     }

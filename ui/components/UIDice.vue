@@ -40,7 +40,7 @@
 import { mapState } from 'vuex'
 
 export default {
-    name: 'Dice',
+    name: 'UIDice',
     inject: ['$socket', '$dataTracker'],
     props: {
         /* do not remove entries from this - Dashboard's Layout Manager's will pass this data to your component */

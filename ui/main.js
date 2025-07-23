@@ -5,6 +5,6 @@
  */
 import { createApp } from 'vue'
 
-import Dice from './components/Dice.vue'
+import UIDice from './components/UIDice.vue'
 
-createApp(Dice).mount('#app')
+createApp(UIDice).mount('#app')
