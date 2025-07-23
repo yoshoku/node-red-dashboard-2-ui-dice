@@ -2,7 +2,7 @@
 
 A dice widget for the Node-RED Dashboard 2.0.
 
-<img src="https://github.com/user-attachments/assets/c20cf517-7c08-422a-bfa0-a5a2b6c459d8" alt="example of node-red-dashboard-2-ui-dice" />
+![Example](https://github.com/user-attachments/assets/c20cf517-7c08-422a-bfa0-a5a2b6c459d8)
 
 ## Installation
 
