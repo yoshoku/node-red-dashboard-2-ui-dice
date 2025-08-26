@@ -2,8 +2,8 @@
 
 A dice widget for the Node-RED Dashboard 2.0.
 
-![Example of flow](doc/images/flow.png)
-![Example of dashboard](doc/images/dashboard.gif)
+![Example of flow](examples/flow.png)
+![Example of dashboard](examples/dashboard.gif)
 
 ## Installation
 
